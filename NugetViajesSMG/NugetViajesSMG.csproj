@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>NugetViajesSMG</Title>
+    <Authors>Sofia Martinez Gonzalez</Authors>
+    <Description>Nuget funcional para ApiViajes y Proyecto que llamara
+a esa Api</Description>
+    <PackageIcon>EntdGehLogo.jpg</PackageIcon>
+    <Version>2.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\EntdGehLogo.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
+  </ItemGroup>
+
+</Project>
